@@ -14,7 +14,7 @@ from attacks import fgsm
 
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
-os.environ['CUDA_VISIBLE_DEVICES'] = '2'    # 使用第‘i’块GPU训练
+os.environ['CUDA_VISIBLE_DEVICES'] = '2'    
 
 
 # set the random seed, so we can get stable results.
